@@ -1,0 +1,335 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Reto Final</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/materialize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+<!--   Comentarios ...... Fuentes de Google -->
+       <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400,700">
+<!--   Comentarios ...... Icons --> 
+       <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"> 
+       <link rel="stylesheet" type="text/css" href="style.css">     
+
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+       <style> body{display: flex; min-height: 100vh; flex-direction: column;} main{flex: 1 0 auto;}</style>
+
+    </head>
+    <body>
+
+        <header class=" card-panel teal lighten-2 center-align">
+            <h1 class="white-text">Bienvenido al mundo del codigo </h1>
+        </header>
+        
+        <hr>
+
+        <div class="row">
+                <nav class="col s12 m12 l3"> 
+                    <div class="nav-wrapper white-text text-lighten-4">
+                        <a href="#" class="brand-logo">Menu</a>
+                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    </div>
+                    <div>
+                        <div class="row">
+                            <ul class="hide-on-med-and-down">
+                                <li ><a class="blue-text dropdown-button " href="#" >HTML5</a> </li>
+                            </ul> 
+                        </div>   
+                        <div class="row">
+                            <ul class="hide-on-med-and-down">
+                                <li ><a class="blue-text dropdown-button" href="#">CSS3</a></li>
+                            </ul> 
+                        </div> 
+                        <div class="row">
+                            <ul class="hide-on-med-and-down">
+                                <li ><a class="blue-text dropdown-button" href="#">JQUERY</a> </li>
+                            </ul> 
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="side-nav " id="mobile-demo">
+                            <li class="active red"><a class="grey-text text-lighten-4" href="#">HTML5</a></li>
+                            <li class="red"><a class="grey-text text-lighten-4" href="#">Css3</a></li>
+                            <li class="red"><a class="grey-text text-lighten-4" href="">Jquery</a></li>
+                        </ul>        
+                    </div>
+                </nav>
+
+                <main class="col s12 m12 l9">
+
+                    <article class="">
+                        <header class="white center-align">
+                            <h4 class="">HTML5</h4>
+                            <time class="picker__close picker__weekday">17/02/01</time>
+                        </header>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col s12 m12">
+                                    <div class="card-panel">
+                                        <p>HTML5 es un lenguaje de marcas empleado para estructurar y presentar contenido en la WWW. Como su nombre lo indica es la quinta revisión del estándar HTML y permite soportar lo último en multimedia.</p>
+                                        <div class="center-align"><img src="img/HTML5_.png"></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <footer class="page-footer white">
+                            <div class="container">
+                                <div class="row center-align">
+                                    <div class="col s12 m12">
+                                        <a class="" href="https://www.facebook.com/html5.es/?fref=ts">facebook</a> 
+                                        <a class="" href="https://www.youtube.com/watch?v=QC9_8nRNNHA&list=PLU8oAlHdN5BnX63lyAeV0LzLnpGudgRrK">Youtube</a> 
+                                    </div>
+                                </div>         
+                            </div>
+                        </footer><hr>
+
+                        <div class="container comments-container">
+                            <h1>Cometarios</h1>
+                            <ul id="comments-list" class="comments-list">
+                                <li>
+                                    <div class="comment-main-level">
+                                        <div class="comment-avatar"><img src="img/facebook.png" alt=""></div>
+                                        <div class="comment-box">
+                                            <div class="comment-head">
+                                                <h6 class="comment-name by-author"><a href="http://creaticode.com/blog">Alenjandra Fenix</a></h6>
+                                                <span>2017/02/10  4:15 pm</span>
+                                                <i class="fa fa-heart"></i>
+                                                <i class="fa fa-reply"></i>
+                                            </div>  
+                                            <div class="comment-contend">Interesante html5  viene innovando, transformando de alguna forma  la vida de las personas.</div>                     
+                                        </div>                      
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="comment-main-level">
+                                        <div class="comment-avatar"><img src="img/space.png" alt=""></div>
+                                        <div class="comment-box">
+                                            <div class="comment-head">
+                                                <h6 class="comment-name"><a href="http://creaticode.com/blog">Paola Martinez</a></h6>
+                                                <span> 2017/02/10  7:04 pm</span>
+                                                <i class="fa fa-heart"></i>
+                                                <i class="fa fa-reply"></i>
+                                            </div>  
+                                            <div class="comment-contend">Waaaaaauuuu me gustaria aprender html5, ver como los demas hacen cosas fenomenales. :)</div>                      
+                                        </div>                      
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="row">           
+                                <div class="col s7 m8">
+                                    <div class="input-field input">
+                                        <input  id="comentario" name="comentario" type="text" value="" placeholder="Comentar">
+                                    </div> 
+                                </div>
+                                <div class="col s5 m4">
+                                    <button class="btn-large right" id="mensaje" type="button">Enviar</button>
+                                </div>
+                            </div>
+                       </div>
+                    </article>
+
+                    <hr><hr>
+
+                    <article class="">
+                        <header class="white center-align">
+                            <h4 class="">CSS 3</h4>
+                            <time class="picker__close picker__weekday">17/01/30</time>
+                        </header>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col s12 m12">
+                                    <div class="card-panel"><p>CSS3 es un lenguaje usado para definir la presentación de un documento estructurado escrito en HTML o XML (y por extensión en XHTML).</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="page-footer white">
+                            <div class="container">
+                                <div class="row center-align">
+                                    <div class="col s12 m12">
+                                        <a href="https://www.facebook.com/CSS3.OFFICIAL/?fref=ts">Facebook</a> 
+                                        <a href="https://www.youtube.com/watch?v=LhV11MGENiM&list=PLraIUviMMM3dMtMLH2A9SkDZHFzb-YH4K">Youtube</a> 
+                                    </div>
+                                </div>         
+                            </div>
+                       </footer><hr>
+
+                        <div class="container comments-container">
+                            <h1>Cometarios</h1>
+                            <ul id="comments-list" class="comments-list">
+                                <li>
+                                    <div class="comment-main-level">
+                                        <div class="comment-avatar"><img src="img/facebook.png" alt=""></div>
+                                        <div class="comment-box">
+                                            <div class="comment-head">
+                                                <h6 class="comment-name by-author"><a href="http://creaticode.com/blog">Thiago Fenix</a></h6>
+                                                <span>2017/02/01 11:01 am</span>
+                                                <i class="fa fa-heart"></i>
+                                                <i class="fa fa-reply"></i>
+                                            </div>  
+                                            <div class="comment-contend">Css3 te permite darle color y vida a las paginas web... de esta forma que el usuario se sienta bien al navegar en la web
+                                            </div>                      
+                                        </div>                      
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="row">           
+                                <div class="col s7 m8">
+                                    <div class="input-field input"><input type="text" placeholder="Comentar"></div> 
+                                </div>
+                                <div class="col s5 m4"><button class="btn-large right">Enviar</button></div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <hr><hr>
+
+                    <article class="">
+                        <header class="white center-align">
+                            <h4 class="">JQuery</h4>
+                            <time class="picker__close picker__weekday">17/01/29</time>
+                        </header>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col s12 m12">
+                                    <div class="card-panel"><p>jQuery es una biblioteca multiplataforma de JavaScript, creada inicialmente por John Resig, que permite simplificar la manera de interactuar con los documentos HTML, manipular el árbol DOM, manejar eventos, desarrollar animaciones y agregar interacción con la técnica AJAX a páginas web.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <footer class="page-footer white">
+                           <div class="container">
+                                <div class="row center-align">
+                                    <div class="col s12 m12">
+                                        <a href="https://www.facebook.com/jquerybulgaria/?fref=ts">Facebook</a> 
+                                        <a href="https://www.youtube.com/watch?v=jKbjblt4NXA&list=PLTE0X123tz-yxigJHnmuEgqWeVMI7YI-W">Youtube</a> 
+                                    </div>
+                                </div>         
+                            </div>
+                        </footer><hr>
+
+                        <div class="container comments-container">
+                            <h1>Cometarios</h1>
+                            <ul id="comments-list" class="comments-list">
+                               <li>
+                                    <div class="comment-main-level">
+                                        <div class="comment-avatar"><img src="img/facebook.png" alt=""></div>
+                                        <div class="comment-box">
+                                            <div class="comment-head">
+                                                <h6 class="comment-name by-author"><a href="http://creaticode.com/blog">Diana Salas</a></h6>
+                                                <span>2017/01/30 13:05 pm</span>
+                                                <i class="fa fa-heart"></i>
+                                                <i class="fa fa-reply"></i>
+                                            </div>  
+                                            <div class="comment-contend"> Aprendo aprendo aprendo jquery ... (Y)</div>                      
+                                        </div>                      
+                                    </div>
+                                </li>
+
+                                <li>
+                                   <div class="comment-main-level">
+                                        <div class="comment-avatar"><img src="img/space.png" alt=""></div>
+                                        <div class="comment-box">
+                                            <div class="comment-head">
+                                                <h6 class="comment-name"><a href="http://creaticode.com/blog">Paola Martinez</a></h6>
+                                                <span>2017/01/30 12:44 pm </span>
+                                                <i class="fa fa-heart"></i>
+                                                <i class="fa fa-reply"></i>
+                                            </div>  
+                                            <div class="comment-contend">Jquery nos permite hacer cosas fenomenales en las paginas, validaciones , animaciones y mucho mas </div>
+                                        </div>                      
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="row">           
+                                <div class="col s7 m8">
+                                    <div class="input-field input"><input type="text" placeholder="Comentar"></div> 
+                                </div>
+                                <div class="col s5 m4"><button class="btn-large right">Enviar</button></div>
+                            </div>
+                        </div>
+                    </article>
+                </main>
+
+                </div><hr>
+
+                <footer class="page-footer ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col s12 m6">
+                                 <h5 class="white-text">Mundo del Codigo</h5>
+                                <p class="grey-text text-lighten-5">Paginas similares</p>
+                            </div>
+                        </div>  
+                        <div class="row">
+                            <div class="col s4 m4">
+                                <h5 class="white-text">Html5</h5>
+                                <ul>
+                                    <li><a href="#" class="grey-text text-lighten-4">Pagina 1</a></li>
+                                    <li><a href="#" class="grey-text text-lighten-4">Pagina 2</a></li>
+                                    <li><a href="#" class="grey-text text-lighten-4">Pagina 3</a></li>
+                                </ul>
+                            </div>
+                            <div class="col s4 m4">
+                                <h5 class="white-text">Css3</h5>
+                                <ul>
+                                    <li><a href="#" class="grey-text text-lighten-4">Pagina 1</a></li>
+                                    <li><a href="#" class="grey-text text-lighten-4">Pagina 2</a></li>
+                                    <li><a href="#" class="grey-text text-lighten-4">Pagina 3</a></li>
+                                </ul>
+                            </div>
+                            <div class="col s4 m4">
+                                <h5 class="white-text">Jquery</h5>
+                                <ul>
+                                    <li><a href="#" class="grey-text text-lighten-4">Pagina 1</a></li>
+                                    <li><a href="#" class="grey-text text-lighten-4">Pagina 2</a></li>
+                                    <li><a href="#" class="grey-text text-lighten-4">Pagina 3</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-copyright">
+                        <div class="container">@Santi_code_20<a href="#" class="grey-text text-lighten-4 right"> Aprendiendo Ya</a></div>
+                    </div>
+                </footer>
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>   
+
+        <script src="js/plugins.js"></script>
+        <script src="js/materialize.min.js"></script>
+        <script src="js/main.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+
+        <script>
+            $(".button-collapse").sideNav();
+
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
